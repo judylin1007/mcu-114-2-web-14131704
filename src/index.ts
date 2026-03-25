@@ -17,14 +17,14 @@ let products = [
     true,
     new Date("2024-4-10"),
   ),
+  new Product(3, "書籍 A", "博碩文化", 500, false, new Date("2024-4-10")),
+  new Product(4, "書籍 B", "博碩文化", 500, true, new Date("2024-4-10")),
+  new Product(5, "書籍 C", "博碩文化", 500, false, new Date("2024-4-10")),
+  new Product(6, "書籍 D", "博碩文化", 500, false, new Date("2024-4-10")),
 ];
 
-console.log(products);
-
-products[0]!.setDisplay(false);
-
-console.table(products);
-
-function setProductDisplay(product: Product, isShow: boolean) {
-  product.isShow = isShow;
+for (const item of products) {
+  if (item.isShow) {
+    console.table(item);
+  }
 }
