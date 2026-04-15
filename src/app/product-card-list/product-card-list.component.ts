@@ -1,7 +1,8 @@
+import { Component, input, signal } from '@angular/core';
+
+import { ProductCardComponent } from './../product-card/product-card.component';
 import { Product } from '../model/product';
 import { PaginationComponent } from '../pagination/pagination.component';
-import { ProductCardComponent } from './../product-card/product-card.component';
-import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-product-card-list',
@@ -10,8 +11,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './product-card-list.component.scss',
 })
 export class ProductCardListComponent {
-  @Input({ required: true })
-  products!: Product[];
+  readonly products = input<Product[]>([]);
 
-  pageIndex = 1;
+  readonly pageIndex = signal(1);
 }
