@@ -58,7 +58,7 @@ export class ProductPageComponent {
   }
 
   protected onView(product: Product): void {
-    this.router.navigate(['product', product.id]);
+    this.router.navigate(['product', 'view', product.id]);
   }
 
   private getProducts(pageIndex: number, pageSize: number): void {
