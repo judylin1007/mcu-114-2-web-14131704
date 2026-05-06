@@ -1,4 +1,7 @@
 export class Product {
+  subscribe(arg0: (product: any) => void) {
+    throw new Error('Method not implemented.');
+  }
   constructor(initData?: Partial<Product>) {
     if (!initData) return;
     Object.assign(this, initData);
