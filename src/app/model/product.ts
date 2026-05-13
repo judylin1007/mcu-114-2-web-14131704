@@ -7,7 +7,7 @@ export class Product {
     Object.assign(this, initData);
   }
 
-  id!: number;
+  id!: string;
 
   name!: string;
 
