@@ -145,16 +145,31 @@
       "id": "kabR53hkCiI"
     },
     {
+      "id": "NmT3E_ps9gY",
       "name": "測試",
       "company": "mcu",
       "authors": [
-        "A"
+        "A",
+        "B"
       ],
       "price": 100000,
       "isShow": true,
       "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
-      "createDate": "2026-05-20T09:45:46.935Z",
-      "id": "NmT3E_ps9gY"
+      "createDate": "2026-05-20T09:59:48.248Z"
+    },
+    {
+      "name": "測試",
+      "company": "mcu",
+      "authors": [
+        "A",
+        "B",
+        "C"
+      ],
+      "price": 100000,
+      "isShow": true,
+      "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2026-05-20T09:58:58.249Z",
+      "id": "4aXBniRZnnw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
