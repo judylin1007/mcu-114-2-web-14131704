@@ -111,6 +111,50 @@
       "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
       "createDate": "2023-10-17T00:00:00.000+08:00",
       "price": 1000
+    },
+    {
+      "name": "1",
+      "company": "2",
+      "authors": [],
+      "price": 3,
+      "isShow": true,
+      "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2026-05-20T09:44:18.249Z",
+      "id": "fmDqlqu3pz8"
+    },
+    {
+      "name": "1",
+      "company": "2",
+      "authors": [],
+      "price": 3,
+      "isShow": true,
+      "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2026-05-20T09:44:18.327Z",
+      "id": "qrBSj2k3riw"
+    },
+    {
+      "name": "測試",
+      "company": "mcu",
+      "authors": [
+        "A"
+      ],
+      "price": 100,
+      "isShow": true,
+      "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2026-05-20T09:44:58.720Z",
+      "id": "kabR53hkCiI"
+    },
+    {
+      "name": "測試",
+      "company": "mcu",
+      "authors": [
+        "A"
+      ],
+      "price": 100000,
+      "isShow": true,
+      "photoUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2026-05-20T09:45:46.935Z",
+      "id": "NmT3E_ps9gY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
